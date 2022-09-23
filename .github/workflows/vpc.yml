@@ -53,6 +53,6 @@ jobs:
       - name: Apply
         working-directory : VPC
         run: |
-          terraform plan --auto-approve
+          terraform plan -auto-approve
 
           
